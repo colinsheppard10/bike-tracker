@@ -1,0 +1,9 @@
+
+[Unit]
+Description=Aeris iperf test service
+
+[Service]
+ExecStart=/home/pi/Aeris-raspberrypi/test_ping.sh
+
+[Install]
+WantedBy=multi-user.target

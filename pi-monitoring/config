@@ -1,0 +1,6 @@
+test_addr=13.59.245.239
+size=1400
+apn=iot.aer.net
+mdm=00000000
+hostname=pimonus001
+testlabel=GSM-Global-USDev-UKGGSN
