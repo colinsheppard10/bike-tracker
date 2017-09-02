@@ -12,7 +12,7 @@ ser = serial.Serial(
 )
 
 ser.isOpen()
-
+out = ''
 print 'This program will continually loop looking for recieved messages'
 while 1:
         while ser.inWaiting() > 0:
