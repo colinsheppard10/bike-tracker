@@ -21,6 +21,7 @@ while 1:
     input = raw_input(">> ")
     # Python 3 users
     # input = input(">> ")
+    print 'looped again'
     if input == 'exit':
         ser.close()
         exit()
