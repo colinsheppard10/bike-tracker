@@ -1,7 +1,7 @@
 import json, urllib.request
 
 data = {
-"applicationTag":"colinTag2", #enter in the applicationTag field
+"applicationTag":"colin2", #enter in the applicationTag field
 "channelData":{
 "maxNotifications":"15",
 "type":"nc:LongPollingData"
