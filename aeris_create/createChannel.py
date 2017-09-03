@@ -24,3 +24,4 @@ response = urllib.request.urlopen(req)
 
 #use the callbackURL from this step as the notifyURL for Step 3
 print(response.read())
+# '{"clientCorrelator":"1234","applicationTag":"colin2","channelType":"LongPolling","channelData":{"channelURL":"https://longpoll2.aerframe.aeris.com/notificationchannel/v2/17380/longpoll/002c6123-f3d6-910b-35da-f7156565fb29","maxNotifications":15},"channelLifetime":7200,"callbackURL":"https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c6123-f3d6-910b-35da-f7156565fb29/callback","resourceURL":"https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c6123-f3d6-910b-35da-f7156565fb29"}'

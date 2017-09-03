@@ -4,16 +4,15 @@ import json, urllib.request
 data = {
   "callbackReference": {
     "callbackData": "testApp1-mt-delivery",
-    "notifyURL": #use the callbackURL from Step 2 (Creating the Notification Channel) as your notifyURL
-    "https://api.aerframe.aeris.com/notificationchannel/v2/1234/channels/00169bb3-e0d5-e906-331e-9f50dda27cfb/callback"
+    "notifyURL": "https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c6123-f3d6-910b-35da-f7156565fb29/callback"
   },
   "filterCriteria": "SP:*"
 }
 
 #enter the application API key returned in the create application step below
-applicationApiKey = '22222222-2222-2222-2222-222222222222'
+applicationApiKey = '32037d18-9042-11e7-b819-8f25024ce5a4'
 #enter the account ID below
-accountId = '1234'
+accountId = '17380'
 
 url = 'https://api.aerframe.aeris.com/smsmessaging/v2/' + accountId + '/outbound/testApp1/subscriptions?apiKey=' + applicationApiKey
 header = {'Content-Type':'application/json'}
