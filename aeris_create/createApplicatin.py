@@ -3,10 +3,10 @@ import json, urllib.request
 
 #fill in all fields of data
 data = {
-'applicationName':'Colin Application',
-'applicationShortName':'colinApp',
-'applicationTag':'colin1',
-'description':'colin application 1'
+'applicationName':'colinApplication2',
+'applicationShortName':'colinApp2',
+'applicationTag':'colin2',
+'description':'A sample AerFrame application'
 }
 
 #enter the account API key below
@@ -23,4 +23,3 @@ response = urllib.request.urlopen(req)
 
 #response will return the unique application apiKey
 print(response.read())
-# b'{"applicationName":"Colin Application","applicationShortName":"colinApp","applicationTag":"colin1","description":"colin application 1","apiKey":"403d8413-9031-11e7-9b85-7ba95fc8fca5","resourceURL":"https://api.aerframe.aeris.com/registration/v2/17380/applications/002c5a7a-0be2-5db6-6d67-c46435d53b1a","useSmppInterface":false}'
