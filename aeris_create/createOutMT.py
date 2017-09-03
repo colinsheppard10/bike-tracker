@@ -5,7 +5,7 @@ data = {
   "callbackReference": {
     "callbackData": "testApp1-mt-delivery",
     "notifyURL": #use the callbackURL from Step 2 (Creating the Notification Channel) as your notifyURL
-    "https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c5ab8-0233-1778-3135-a301d7ed000f/callback"
+    "https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c6063-028a-bfbd-3481-61e284be83d6/callback"
   },
   "filterCriteria": "SP:*"
 }
