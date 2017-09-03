@@ -23,3 +23,4 @@ response = urllib.request.urlopen(req)
 
 #response will return the unique application apiKey
 print(response.read())
+# b'{"applicationName":"colinApplication2","applicationShortName":"colinApp2","applicationTag":"colin2","description":"A sample AerFrame application","apiKey":"32037d18-9042-11e7-b819-8f25024ce5a4","resourceURL":"https://api.aerframe.aeris.com/registration/v2/17380/applications/002c60c6-2ff3-0f66-6b53-aa6fa74e62c5","useSmppInterface":false}'
