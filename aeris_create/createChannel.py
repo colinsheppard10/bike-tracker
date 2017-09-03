@@ -12,7 +12,7 @@ data = {
 }
 
 #enter the application API key returned in the create application step below
-applicationApiKey = 'bcaf94ef-3888-11e6-9693-6d01238098ac'
+applicationApiKey = '403d8413-9031-11e7-9b85-7ba95fc8fca5'
 #enter the account ID below
 accountId = '17380'
 
