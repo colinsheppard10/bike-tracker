@@ -15,9 +15,8 @@ ser = serial.Serial(
 ser.isOpen()
 out = ''
 print 'This program will continually loop looking for recieved messages'
-    data = ''
+data = ''
     while ser.inWaiting() <= 0:
         data += ser.readline(1)
-    # ser.close()
 
     print ">>" + data
