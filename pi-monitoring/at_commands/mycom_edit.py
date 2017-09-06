@@ -15,7 +15,7 @@ ser.isOpen()
 out = ''
 print 'This program will continually loop looking for recieved messages'
 while 1:
-    data = []
+    data = ''
     time0 = time.time()
     while (time.time() - time0 < 5):  # Read data for 5 seconds
         data.append(ser.readline())
