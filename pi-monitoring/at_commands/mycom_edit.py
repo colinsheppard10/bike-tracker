@@ -16,7 +16,7 @@ ser.isOpen()
 out = ''
 print 'This program will continually loop looking for recieved messages'
 data = ''
-    while ser.inWaiting() <= 0:
-        data += ser.readline(1)
+while ser.inWaiting() <= 0:
+    data += ser.readline(1)
 
-    print ">>" + data
+print ">>" + data
