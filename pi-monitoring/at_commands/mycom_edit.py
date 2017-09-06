@@ -18,6 +18,6 @@ while 1:
     data = ''
     time0 = time.time()
     while (time.time() - time0 < 5):  # Read data for 5 seconds
-        data.append(ser.readline())
+        data += ser.readline()
     ser.close()
     print ">>" + data
