@@ -20,9 +20,9 @@ print ('This program will continually loop looking for recieved messages')
 data = ''
 while ser.inWaiting() == 0:
     if ser.inWaiting() > 0:
-        data += ser.readline()
-        print (">>" + data)
-        data = ''
+        # data += ser.readline()
+        # print (">>" + data)
+        # data = ''
         url = "https://google.com"
         req = urllib.request.Request(url)
         response = urllib.request.urlopen(req)
