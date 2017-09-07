@@ -21,7 +21,7 @@ data = ''
 while ser.inWaiting() == 0:
     if(ser.inWaiting > 0):
         data += ser.readline()
-        print ">>" + data
+        print (">>" + data)
         data = ''
         url = "https://google.com"
         req = urllib.request.Request(url)
