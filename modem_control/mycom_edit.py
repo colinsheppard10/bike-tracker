@@ -19,7 +19,7 @@ out = ''
 print ('This program will continually loop looking for recieved messages')
 data = ''
 while ser.inWaiting() == 0:
-    if ser.inWaiting() > 0:
+    while ser.inWaiting() > 0:
         # data += ser.readline()
         # print (">>" + data)
         # data = ''
@@ -27,3 +27,10 @@ while ser.inWaiting() == 0:
         req = urllib.request.Request(url)
         response = urllib.request.urlopen(req)
         print(response.read())
+
+
+    # while ser.inWaiting() == 0:
+    #     while ser.inWaiting > 0:
+    #         data += ser.readline()
+    #         print ">>" + data
+    #         data = '' 
