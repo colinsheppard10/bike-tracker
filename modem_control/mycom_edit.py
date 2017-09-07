@@ -16,7 +16,7 @@ ser = serial.Serial(
 
 ser.isOpen()
 out = ''
-print 'This program will continually loop looking for recieved messages'
+print ('This program will continually loop looking for recieved messages')
 data = ''
 while ser.inWaiting() == 0:
     if(ser.inWaiting > 0):
