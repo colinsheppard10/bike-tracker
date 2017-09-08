@@ -26,6 +26,7 @@ while ser.inWaiting() == 0:
         url = "https://google.com"
         req = urllib.request.Request(url)
         response = urllib.request.urlopen(req)
+        print("printing test")
         print(response.read())
 
 
