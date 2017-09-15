@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies":{
     "superagent":"^3.5.2",
-    "express":"^4.15.3"
+    "express":"^4.15.3",
+    "angular":"^1.6.6",
+    "angular-route": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-ui-router": "^1.0.3"
   }
 }
