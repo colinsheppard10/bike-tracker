@@ -1,7 +1,7 @@
 import json, urllib.request
 
 data = {
-"applicationTag":"colin3", #enter in the applicationTag field
+"applicationTag":"colin4", #enter in the applicationTag field
 "channelData":{
 "maxNotifications":"15",
 "type":"nc:LongPollingData"
@@ -12,7 +12,7 @@ data = {
 }
 
 #enter the application API key returned in the create application step below
-applicationApiKey = '5a265b6b-90db-11e7-a18b-7fa77add7671'
+applicationApiKey = '7c8fa0d8-07b6-11e8-b466-059dc9dfa5e8'
 #enter the account ID below
 accountId = '17380'
 
@@ -24,15 +24,15 @@ response = urllib.request.urlopen(req)
 
 #use the callbackURL from this step as the notifyURL for Step 3
 print(response.read())
-# {
-#     "clientCorrelator": "1234",
-#     "applicationTag": "colin3",
-#     "channelType": "LongPolling",
-#     "channelData": {
-#         "channelURL": "https://longpoll2.aerframe.aeris.com/notificationchannel/v2/17380/longpoll/002c9cc4-b535-6358-365d-927e990de8fb",
-#         "maxNotifications": 15
-#     },
-#     "channelLifetime": 7200,
-#     "callbackURL": "https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c9cc4-b535-6358-365d-927e990de8fb/callback",
-#     "resourceURL": "https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/002c9cc4-b535-6358-365d-927e990de8fb"
+# {  
+#    "clientCorrelator":"1234",
+#    "applicationTag":"colin4",
+#    "channelType":"LongPolling",
+#    "channelData":{  
+#       "channelURL":"https://longpoll2.aerframe.aeris.com/notificationchannel/v2/17380/longpoll/00043ea6-65b9-e6d7-3c23-19b0126fc2ab",
+#       "maxNotifications":15
+#    },
+#    "channelLifetime":7200,
+#    "callbackURL":"https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/00043ea6-65b9-e6d7-3c23-19b0126fc2ab/callback",
+#    "resourceURL":"https://api.aerframe.aeris.com/notificationchannel/v2/17380/channels/00043ea6-65b9-e6d7-3c23-19b0126fc2ab"
 # }

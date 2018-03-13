@@ -3,9 +3,9 @@ import json, urllib.request
 
 #fill in all fields of data
 data = {
-'applicationName':'colinApplication3',
-'applicationShortName':'colinApp3',
-'applicationTag':'colin3',
+'applicationName':'colinApplication4',
+'applicationShortName':'colinApp4',
+'applicationTag':'colin4',
 'description':'A sample AerFrame application'
 }
 
@@ -24,11 +24,11 @@ response = urllib.request.urlopen(req)
 #response will return the unique application apiKey
 print(response.read())
 # {  
-#    "applicationName":"colinApplication3",
-#    "applicationShortName":"colinApp3",
-#    "applicationTag":"colin3",
+#    "applicationName":"colinApplication4",
+#    "applicationShortName":"colinApp4",
+#    "applicationTag":"colin4",
 #    "description":"A sample AerFrame application",
-#    "apiKey":"5a265b6b-90db-11e7-a18b-7fa77add7671",
-#    "resourceURL":"https://api.aerframe.aeris.com/registration/v2/17380/applications/002c9cec-2af8-8ed4-6713-682feab828d4",
+#    "apiKey":"7c8fa0d8-07b6-11e8-b466-059dc9dfa5e8",
+#    "resourceURL":"https://api.aerframe.aeris.com/registration/v2/17380/applications/00043e09-e15e-4a76-6eb5-9b85baf1bf28",
 #    "useSmppInterface":false
 # }
